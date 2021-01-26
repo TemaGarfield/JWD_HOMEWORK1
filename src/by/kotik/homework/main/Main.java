@@ -2,7 +2,7 @@ package by.kotik.homework.main;
 
 import by.kotik.homework.enter.DoubleEnter;
 import by.kotik.homework.enter.IntEnter;
-import by.kotik.homework.tasks.*;
+import by.kotik.homework.task.*;
 import by.kotik.homework.view.*;
 
 
