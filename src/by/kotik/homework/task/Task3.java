@@ -10,9 +10,13 @@ public class Task3 {
         return rectangleSquare / 4;
     }
 
-    public static double findCircleSquare(double rectangleSquare) {
+    public static double findRectangleInCircleSquare(double rectangleSquare) {
         double circleSquare = 2 * (Math.pow(findRadius(rectangleSquare), 2));
 
         return circleSquare;
+    }
+
+    public static double findRatio(double rectangleSquare) {
+        return rectangleSquare / findRectangleInCircleSquare(rectangleSquare);
     }
 }
